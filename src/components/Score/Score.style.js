@@ -10,6 +10,12 @@ export const ScoreContainer = styled.div`
   align-items: center;
 `;
 
+export const DataContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export const ScoreLabel = styled.p`
   margin: 0;
   margin-bottom: 4px;
