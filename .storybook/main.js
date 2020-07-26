@@ -1,4 +1,7 @@
 module.exports = {
   stories: ["../src/**/**/*.stories.[tj]sx"],
-  addons: ["@storybook/preset-create-react-app"],
+  addons: [
+    "@storybook/preset-create-react-app",
+    "@storybook/addon-backgrounds",
+  ],
 };
