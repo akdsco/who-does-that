@@ -25,6 +25,7 @@ export const OvalOuter = styled.div`
 export const OvalInner = styled.div`
   height: 68px;
   width: 76px;
+  background: white;
   position: absolute;
   display: flex;
   justify-content: center;
