@@ -1,10 +1,10 @@
 import React from "react";
 import { GameChoice } from "./GameChoice";
-import scissors from "../../assets/icon/scissors.svg";
-import rock from "../../assets/icon/rock.svg";
-import paper from "../../assets/icon/shape.svg";
-import lizard from "../../assets/icon/lizard.svg";
-import spock from "../../assets/icon/spock.svg";
+import scissors from "../../assets/icons/icon-scissors.svg";
+import rock from "../../assets/icons/icon-rock.svg";
+import paper from "../../assets/icons/icon-paper.svg";
+import lizard from "../../assets/icons/icon-lizard.svg";
+import spock from "../../assets/icons/icon-spock.svg";
 
 export default { title: "GameChoice" };
 
