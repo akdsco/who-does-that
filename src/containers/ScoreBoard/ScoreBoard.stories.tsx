@@ -3,8 +3,6 @@ import { ScoreBoard } from "./ScoreBoard";
 
 export default { title: "Score Board" };
 
-const props = {
-  score: 12,
-};
+const props = {};
 
 export const defaultBoard = () => <ScoreBoard {...props} />;
