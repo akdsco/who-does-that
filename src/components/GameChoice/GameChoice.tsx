@@ -1,14 +1,5 @@
 import React from "react";
-// import PropTypes from "prop-types";
-import {
-  OvalOuter,
-  OvalInner,
-  StyledGameChoice,
-  BaseCircle,
-  ImageHolder,
-} from "./GameChoice.style";
-
-// GameChoice.propTypes = {};
+import { ImageHolder, Circle } from "./GameChoice.style";
 
 interface Props {
   shadeColor: string;
@@ -18,12 +9,8 @@ interface Props {
 
 export const GameChoice: React.FC<Props> = ({ shadeColor, color, icon }) => {
   return (
-    <StyledGameChoice>
-      <BaseCircle color={shadeColor} />
-      <OvalOuter color={color} />
-      <OvalInner>
-        <ImageHolder src={icon} alt="fist" />
-      </OvalInner>
-    </StyledGameChoice>
+    <Circle color={color} shadeColor={shadeColor}>
+      <ImageHolder src={icon} alt="fist" />
+    </Circle>
   );
 };
