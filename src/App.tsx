@@ -1,5 +1,6 @@
 import React from "react";
+import { AppContainer } from "./App.style";
 
 export default function App() {
-  return <div className="App">will be built here soon</div>;
+  return <AppContainer className="App">Test</AppContainer>;
 }
